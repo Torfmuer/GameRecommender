@@ -1,0 +1,87 @@
+﻿:root {
+    --font-color: 20, 20, 20;
+    --lighter-font-color: 80, 80, 80;
+    --highlight-color: 3, 169, 244;
+    --body-color: 30, 40, 50;
+    --theme-background: 10, 10, 10;
+    --theme-primary: 0, 0, 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: rgb(var(--body-color));*/
+    background-image: url("https://i.pinimg.com/originals/f3/64/b7/f364b7d0a49566891789d291b8b2e53f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: 0px;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: rgb(var(--body-color));
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+h1, h2, h3, input, select, button, span, a {
+    font-family: 'Oxygen', sans-serif;
+    /*font-size: 1rem;*/
+    font-weight: 400;
+    margin: 0px;
+}
+#title_text {
+    color: white;
+    text-align: center;
+    flex: auto;
+    gap: 40px;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    margin-left: 30%;
+}
+
+#createacc {
+    background-color: rgba(220, 220, 220, 0.2);
+    border: solid;
+    border-color: rgba(230, 230, 230, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    align-items: center;
+    padding-top: 10px;
+    gap: 4px;
+    text-align: center;
+    margin: auto;
+}
+
+#loginn {
+    background-color: rgba(220, 220, 220, 0.2);
+    border: solid;
+    border-color: rgba(230, 230, 230, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 260px;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    align-items: center;
+    padding-top: 10px;
+    gap: 4px;
+    margin-left: 38%;
+}

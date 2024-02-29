@@ -1,8 +1,6 @@
 # GameRecommender
 # By Esther Tan and Owen Foster
 
-
-khjhh
 Documents
 -------------
 Presentation: https://docs.google.com/presentation/d/1uFtNsIMHyX4WsC2QK80AQnVuMcT4Y7m_1c3pJtzF-4k/edit?usp=sharing

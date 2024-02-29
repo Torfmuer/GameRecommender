@@ -1,0 +1,122 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+#search {
+    background-color: rgba(220, 220, 220, 0.2);
+    border: solid;
+    border-color: rgba(230, 230, 230, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 270px;
+    flex-direction: column;
+    position: relative;
+    width: 350px;
+    align-items: center;
+    padding-top: 10px;
+    gap: 14px;
+}
+
+#search h2 {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.game > .gametxt {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.add-ico {
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#gameslist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;  
+  width: 100%;
+  align-content: center;
+}
+
+#mygameslist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    align-content: center;
+}
+
+#message {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(220, 220, 220, 0.5);
+    border: solid;
+    border-color: rgba(230, 230, 230, 0.5);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.mygame {
+  background-color: rgba(220, 220, 220, 0.5) ;
+  border: solid;
+  border-color: rgba(230, 230, 230, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 260px;
+  flex-direction: column;
+  position: relative;
+  width: 300px;  
+  align-items: center;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.mygame img {
+    align-items: center;
+    display: flex;
+    height: 140px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.game {
+  background-color: rgba(220, 220, 220, 0.5) ;
+  border: solid;
+  border-color: rgba(230, 230, 230, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  height: 260px;
+  flex-direction: column;
+  position: relative;
+  width: 300px;  
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 9px;
+}
+
+.game span {
+    font-family: 'Oxygen', sans-serif;
+}
+
+.game img {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  justify-content: center;
+  overflow: hidden;
+}
